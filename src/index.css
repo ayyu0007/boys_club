@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hero{
+  background-image: url(../public//assets/boybg2.2a24227425d70efbf193.png);
+}
+.hero:before {
+  background-color: #0003;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.gradient-btn2 {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255, 25%),
+    rgb(241, 255, 168, 15%)
+  );
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  color: white;
+}
+.clubbg{
+  background-image: url(../public//assets/clubbg.22c3a0e57215809310f3.png);
+}
+
+
+.gradiant-faq-box {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255, 15%),
+    rgb(194, 194, 194, 15%),
+    rgb(50, 58, 5, 15%)
+  );
+}
+.gradiant-club-box {
+  background: linear-gradient(
+    to left,
+    rgb(194, 194, 194, 25%),
+    rgb(255, 255, 255, 25%)
+  );
+  backdrop-filter: blur(5px);
+}
+
+.gradient-btn{
+  border-width: 1px;
+  border-image: linear-gradient(
+      to right,
+      #6d6d69 0%,
+      #4f532d 29%,
+      #3e450c 46%,
+      #1a1e04 100%
+    )
+  
+}
+
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(207 246 0 / var(--tw-border-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(207 246 0 / var(--tw-text-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(207 246 0 / var(--tw-bg-opacity));
+}
+
+
+.EZDrawer__container {
+  background-color: black !important;
+}
